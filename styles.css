@@ -38,8 +38,8 @@ body, html {
   position: absolute;
   width: 30px;
   height: 30px;
-  background-color: green;
-  right: -30px;
+  background-color: blue;
+  bottom: 10px; /* この行を追加して障害物の位置を調整 */
 }
 
 #score {
