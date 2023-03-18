@@ -22,7 +22,7 @@ body, html {
 }
 
 .jump {
-  animation: jump 0.8s ease-in-out;
+  animation: jump 0.6s ease-in-out; /* アニメーション時間を短くしてジャンプ速度を速くする */
 }
 
 @keyframes jump {
@@ -30,9 +30,10 @@ body, html {
     bottom: 10px;
   }
   50% {
-    bottom: 100px; /* この値を変更してジャンプの高さを調整 */
+    bottom: 120px; /* ジャンプの高さを増やす */
   }
 }
+
 
 .obstacle {
   position: absolute;
