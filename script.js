@@ -13,9 +13,11 @@ document.addEventListener('keydown', (e) => {
 function jump() {
   if (player.classList.contains('jump')) return;
   player.classList.add('jump');
+  player.style.bottom = '50px'; // この行を追加
 
   setTimeout(() => {
     player.classList.remove('jump');
+    player.style.bottom = '10px'; // この行を追加
   }, 500);
 }
 
