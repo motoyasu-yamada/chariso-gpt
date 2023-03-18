@@ -16,7 +16,7 @@ function jump() {
 
   setTimeout(() => {
     player.classList.remove('jump');
-  }, 600); // ここの時間をアニメーションの長さに合わせて変更
+  }, 400); // ここの時間をアニメーションの長さに合わせて変更
 }
 
 function moveObstacle() {
