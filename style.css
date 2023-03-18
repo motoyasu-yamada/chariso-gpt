@@ -22,7 +22,7 @@ body, html {
 }
 
 .jump {
-  animation: jump 0.8s ease-in-out; /* この行を追加 */
+  animation: jump 0.8s ease-in-out;
 }
 
 @keyframes jump {
@@ -30,7 +30,7 @@ body, html {
     bottom: 10px;
   }
   50% {
-    bottom: 50px;
+    bottom: 100px; /* この値を変更してジャンプの高さを調整 */
   }
 }
 
