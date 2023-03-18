@@ -19,7 +19,19 @@ body, html {
   height: 30px;
   background-color: red;
   bottom: 10px;
-  transition: bottom 0.5s ease; /* この行を追加 */
+}
+
+.jump {
+  animation: jump 0.8s ease-in-out; /* この行を追加 */
+}
+
+@keyframes jump {
+  0%, 100% {
+    bottom: 10px;
+  }
+  50% {
+    bottom: 50px;
+  }
 }
 
 .obstacle {
